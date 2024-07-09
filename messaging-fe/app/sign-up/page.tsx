@@ -3,7 +3,7 @@ import React from 'react';
 
 const SignupPage = () => {
     return (
-        <div className="w-full h-screen bg-[url('/images/bg.jpg')] bg-cover bg-center">
+        <div className="w-full min-h-screen bg-[url('/images/bg.jpg')] bg-cover bg-center">
             <Signup />
         </div>
     );

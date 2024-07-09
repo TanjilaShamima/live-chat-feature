@@ -3,10 +3,10 @@ export type LoginDataType  = {
     password: string;
 }
 export type SignUpFormType  = {
-    Name: string;
+    name: string;
     username: string;
     password: string;
     email: string;
-    picture: string;
+    picture: File | null | string;
     confirmPassword: string;
 }
